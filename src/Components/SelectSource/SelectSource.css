@@ -1,0 +1,51 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+}
+
+.home{
+    width: 100vw;
+    background-color: #005eff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.login-container{
+    width: 30rem;
+    height: 12rem;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 5px;
+    cursor: pointer;
+    box-shadow: 0 0 2px 2px white;
+}
+
+
+.headline{
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: 'Inter', 'sans-serif';
+}
+
+
+@media only screen and (max-width: 640px){
+    .login-container{
+        width: 20rem;
+        height: 14rem;
+    }
+
+    .headline{
+        font-size: 2.8rem;
+        letter-spacing: 0;
+    }
+}
